@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Grid Tema</title>
+    <link rel="stylesheet" type="text/css" href="css/design.css" />
+    <script type="text/javascript" src="js/include.js"></script>
+</head>
+<body>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v10.0" nonce="kE9nyOOQ"></script>
+    <div w3-include-html="header.html"></div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <article class="row">
+                    <div class="leftcolumn2">
+                        <h2>CSS Grid</h2>
+                        <p>
+                            Recordemos que CSS es conocido como Hoja de Estilo en Cascada (Cascading Sheet Style) y estas aparecieron
+                            queriendo separar el estilo de la página con el contenido de esta, es decir que se depende mucho de como
+                            el navegador va interpretando la forma en que se va a visualizar la página. Las hojas de estilo se pueden clasificar
+                            de dos formas: <br /><br />
+
+                            Según como se apliquen en el código<br />
+                            <ul class="numbered">
+                                <li><b>Hoja Interna:</b> Solo afecta al contenido de la página donde se crea</li>
+                                <li><b>Hoja Externa:</b> Afecta a todos los documentos que se víncules a ella</li>
+                            </ul>
+
+                            <br />Según como afectan el contenido <br />
+                            <ul class="numbered">
+                                <li><b>Clase:</b>Es el estilo que aplica a toda la clase donde se este referenciando </li>
+                                <li><b>Etiqueta:</b> Cuando se define cual va a ser el contenido sobre una etiqueta</li>
+                                <li><b>Identificador Id:</b> Se marca en la etiqueta cual es el estilo</li>
+                            </ul>
+                            <br />
+                        </p>
+                    </div>
+                    <div class="rightcolumn2">
+                        <img src="img/Grid.jpg" alt="CSS Grid" style="width:350px;" />
+                    </div>
+                </article>
+                <article class="row">
+                    <p>
+                        Dentro de las etiquetas más importantes que tenemos es la <b>STYLE</b> la cual es declarada en la cabecera de la
+                        cabecera del documento. Por otro lado, recordemos que lo que se quiere con esto es crear una especie de rejilla,
+                        por tal motivo vamos a disponer de espacios tanto verticales y horizontales.
+                        Por tal motivo es que aqui vamos a tener dos contenedores, la rejilla y elemento, estos elementos se pueden organizar
+                        de una forma fácil a traves de nuestra etiqueta <b>DIV</b> la cual le podremos decir si el contenido que vamos a añadir
+                        va a ingresar una nueva fila o columna y si lo que buscamos es tener una mejor estructura necesitamos utlizar las
+                        etiquetas de estructuración semántica más importantes las cuales son de Header, Nav y Footer, Setion, Article y Aside.
+                        Una de sus ventajas es que estas rejillas se pueden ajustar automáticamente y la frecuencia con la que se debe repetir
+                        el esquema para esto debemos tener en cuenta un concepto que vamos a llamar media Query.
+                    </p>
+                    <br /><br />Recio García, J. A. (2016). HTML5, CSS3 y JQuery: curso práctico. RA-MA Editorial. (Pág. 128-135)
+                    <br />Terán Anciano, J. (2016). Manual de Introducción al lenguaje HTML. Formación para el Empleo. Editorial CEP, S.L.
+                </article>
+            </div>
+        </div>
+        <div w3-include-html="navigate.html"></div>
+    </div>
+    <div w3-include-html="footer.html"></div>
+
+    <script>includeHTML();</script>
+</body>
+</html>
